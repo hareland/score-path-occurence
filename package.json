@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-run",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main.js",
+  "scripts": {
+    "dev": "node -r sucrase/register main.ts",
+    "build": "sucrase ./ -d ./dist --transforms typescript,imports"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sucrase": "^3.28.0",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "ts-loader": "^9.4.1"
+  }
+}
