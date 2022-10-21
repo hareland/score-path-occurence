@@ -13,4 +13,12 @@ npm install
 #### 3. ...
 ```
 npm run dev
+
+{
+  '/about->/purchase->/thank-you': 2,
+  '/->/about->/features': 1,
+  '/about->/features->/purchase': 1,
+  '/features->/purchase->/thank-you': 1,
+  '/->/about->/purchase': 1
+}
 ```
