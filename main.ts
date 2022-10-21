@@ -18,7 +18,7 @@ export const scorePathOccurrence = (tuples: string[][], sliceLength = 3, limit =
             }
 
             scores[scoreKey]++;
-            tripletBuilders[group] = tripletBuilders[group].slice(1);
+            tripletBuilders[group].shift();
         }
     }
 
